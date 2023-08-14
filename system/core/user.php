@@ -568,7 +568,7 @@ class cmsUser {
                 'path'     => $path,
                 'domain'   => $domain,
                 'samesite' => 'Lax',
-                'secure'   => false,
+                'secure'   => true,
                 'httponly' => $http_only
             ]);
         }
